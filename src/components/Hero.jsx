@@ -16,7 +16,7 @@ function Hero() {
             <div className="space-y-8">
                 <div className="space-y-4">
                     <p className={`text-pink-600 font-semibold text-lg transition-all duration-1000`}>
-                        Get Read to Start Work
+                        Get Ready to Start Work
                     </p>
                     <h2 className={`text-2xl md:text-3xl gap-2 font-black leading-tight transition-all duration-100 delay-200`}>
                         <div>
