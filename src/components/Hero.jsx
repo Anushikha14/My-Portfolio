@@ -1,3 +1,4 @@
+import { Play } from 'lucide-react'
 import React from 'react'
 
 
@@ -18,7 +19,7 @@ function Hero() {
                     <p className="text-pink-600 left-15 font-semibold text-lg transition-all duration-1000">
                         Get Ready to Start Work
                     </p>
-                    <h2 className={`text-2xl md:text-3xl gap-2 font-black leading-tight transition-all duration-100 delay-200`}>
+                    <h2 className={`text-2xl left-15 md:text-3xl gap-2 font-black leading-tight transition-all duration-100 delay-200`}>
                         <div>
                         <span className={`text-white`}>I'm</span>
                         <span className={`text-white`}> Anushikha</span><br />
@@ -27,11 +28,15 @@ function Hero() {
                         </div>
                     </h2>
                     
-                    <p className="text-gray-300 text-lg leadind-relaxed max-w-lg transition-all duration-1000 delay-400">
+                    <p className="text-gray-300 left-15 text-lg leadind-relaxed max-w-lg transition-all duration-1000 delay-400">
                         Hi, I'm a passionate Frontend Developer and UI/UX Designer with a creative mindset and a strong foundation in front-end technologies. I specialize in crafting user-friendly digital experiences that are both visually appealing and functionally effective.
                     </p>
 
-                    <button className='bg-pink-700 text-white px-8 py-4 rounded-lg hover:bg-pink-800 transition-all duration-300 flex items-center gap-2 group shadow-lg hover:shadow-xl font-medium hover:scale-105'>Know More</button>
+                    <button className='bg-pink-700 text-white px-8 py-4 rounded-lg hover:bg-pink-800 transition-all duration-300 flex items-center gap-2 group shadow-lg hover:shadow-xl font-medium hover:scale-105'>Know More<ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1"/>
+                    </button>
+                    <button className="border-2 border-darkblue-600 text-white px-8 py-4 rounded-lg hover:border-pink-700 hover:text-pink-600 transition-all duration-300 font-medium flex items-center gap-2 group hover:scale-105">
+                      <Play className="w-5 h-5"/>
+                    </button>
                 </div>
                 
             </div>

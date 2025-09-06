@@ -31,7 +31,7 @@ function Header() {
     { name: "Contact", href: "#contact"},
    ]
 
-  return <header className={`fixed top-0 left-15 right-0 z-50 transition-all duration-500 ${isScrolled ? "bg-puplr-900 backdrop-blur-lg shadow-lg border-b border-purple-900":"bg-tranparent"}`}>
+  return <header className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${isScrolled ? "bg-puplr-900 backdrop-blur-lg shadow-lg border-b border-purple-900":"bg-tranparent"}`}>
     <div className="container mx-0 px-6 py-4">
         <div className="flex items-center justify-between">
             <div className="text-2xl font-bold">
